@@ -1,0 +1,629 @@
+ body{
+    background-color: whitesmoke;
+ }
+
+ .container-fluid{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    margin-left: 2.5rem;
+}
+.navbar-brand{
+    font-size: x-large;
+    font-weight: 20;
+    color: black;
+}
+.nav-link1{
+    color: blue;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    padding-left: 14px;
+}
+.navlink{
+    padding-left: 20rem;
+}
+.contact{
+    padding-left: 200px;
+}
+.responsive-heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    padding-top: 2rem;
+  }
+  .svg-container {
+    width: 10%;
+    max-width: 400px; /* Set a max width if desired */
+    height: auto;
+    position: absolute;
+    right: 28rem;
+    padding-right: 2rem;
+  }
+  .responsive-text1 {
+    position: relative;
+    right: 0px;
+    font-size: 16px; /* Adjust based on design */
+    max-width: 100%;
+}
+#divi{
+    width: 40%;
+}
+
+
+#hh{
+    display: inline-block;
+}
+.hhhh1{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+
+}
+
+
+.quick-links-container {
+    position: relative;
+    left: 30rem;
+    bottom: 12rem;
+}
+   
+
+.responsive-links-container {
+    position: relative;
+    left: 15rem;
+    bottom: 14rem;
+    width: 60%;
+}
+
+
+
+  
+  /* Adjust font size for tablets */
+  @media (max-width: 768px) {
+    .responsive-heading {
+      font-size: 28px;
+    }
+  }
+  
+  /* Adjust font size for mobile phones */
+  @media (max-width: 600px) {
+    .responsive-heading {
+      font-size: 24px;
+    }
+  }
+  .responsive-card {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+
+.responsive-form {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0;
+}
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-container span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.responsive-approval {
+    font-size: 16px; /* Default font size */
+    margin-right: 50px; /* Default right margin */
+}
+
+
+
+.responsive-item3 {
+    display: inline-block;
+    background-color: #f8f9fa; /* light background color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: for rounded corners */
+    vertical-align: middle; /* Align vertically with the content */
+    line-height: 1.2; /* Adjust line height to reduce height */
+}
+
+.icon {
+    vertical-align: middle; /* Align the SVG with the text */
+    margin-right: 5px; /* Space between the SVG and text */
+}
+
+.text-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2; /* Adjust line height to match the container */
+}
+
+.text-small {
+    font-size: small;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-smaller {
+    font-size: smaller;
+}
+
+.text-metrics {
+    font-size: x-small;
+    color: blue;
+}
+
+.hh{
+    display: inline;
+}
+
+/* General styles */
+.responsive-item3 {
+    display: inline-block;
+    margin: 5px; /* Add some spacing between spans */
+    padding: 10px; /* Ensure there's enough padding */
+    border: 1px solid black; /* Add border similar to the original style */
+}
+
+
+
+  /* Base styling for the container */
+  .responsive-disclaimer {
+    position: relative;
+    bottom: 400px;
+    margin: 20px auto; /* Center the container and ensure responsive margins */
+    padding: 20px;
+    width: 100%; /* Full width on larger screens */
+    max-width: 100%; /* Ensure it takes the full width */
+    text-align: justify;
+   
+  
+    height: 600px; width: 800px;
+}
+
+.headh {
+    position: relative;
+    bottom: 400px; /* Initial bottom position */
+    margin: 10px auto; /* Centered horizontally */
+    padding: 15px;
+    width: 78rem; height: 200px;
+   
+    text-align: justify;
+    
+    display: flex;
+    
+}
+.copyright {
+    position: relative;
+    bottom: 450px; /* Initial bottom position */
+    left: 20px; /* Initial left position */
+    display: inline-block;
+     /* Ensure it takes the full width */
+    text-align: center; /* Center the text */
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 14px; /* Base font size */
+    color: #333; /* Text color */
+}
+
+#visa{
+    position: relative;
+    bottom: 10px;
+    left: 609px;
+    display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+    .responsive-card {
+        margin: 0 auto;
+        border: none;
+    }
+    
+    .responsive-card .card-body h5 {
+        font-size: 28px;
+    }
+
+    .responsive-card .card-text {
+        font-size: medium;
+    }
+
+    .responsive-form {
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0 1rem;
+    }
+    
+    .responsive-form h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .responsive-form button {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .responsive-form .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-card .card-body h5 {
+        font-size: 24px;
+    }
+
+    .responsive-card .card-text {
+        font-size: small;
+    }
+
+    .responsive-form h1 {
+        font-size: 1.25rem;
+    }
+
+    .responsive-form button {
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+/*@media (max-width: 767.98px) {
+    .navbar-nav .nav-item {
+        left: 0;
+        
+    }
+
+    .navbar-nav .nav-link {
+        width: 10%;
+    }
+}
+.navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 2rem;
+    }
+
+    /* Make it mobile responsive */
+    @media (max-width: 768px) {
+        .navbar-nav {
+            flex-direction: column;
+            align-items: center;
+            padding-right: 0;
+        }
+
+        .nav-item {
+            position: relative;
+            left: 0;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .nav-link {
+            width: auto;
+            display: block;
+            padding: 10px 20px;
+        }
+    }
+    @media (max-width: 768px) {
+        .email-container span {
+            width: 90%;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .email-container svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .email-container span {
+            font-size: 12px;
+            padding: 8px;
+        }
+
+        .email-container svg {
+            width: 20px;
+            height: 18px;
+        }
+    }
+    @media (max-width: 585px) {
+        .responsive-text1 {
+            right: 30px; /* Adjust the positioning based on layout */
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    /* Small screens (e.g., smartphones) */
+    @media (max-width: 585px) {
+        .responsive-text1 {
+            right: 20px; /* Further reduce positioning for smaller screens */
+            font-size: 12px;
+            text-align: center; /* Center the text for better readability */
+            
+        }
+    }
+    
+    /* Extra small screens (e.g., very small smartphones) */
+    @media (max-width: 320px) {
+        .responsive-text1 {
+            right: 10px; /* Minimal adjustment */
+            font-size: 10px; /* Smallest readable size */
+            text-align: center;
+            
+        }
+    }
+
+
+
+
+    /* Medium screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .responsive-approval {
+        font-size: 14px; /* Adjust font size */
+        margin-right: 30px; /* Adjust right margin */
+    }
+}
+
+/* Small screens (e.g., smartphones) */
+@media (max-width: 480px) {
+    .responsive-approval {
+        font-size: 12px; /* Further adjust font size */
+        margin-right: 20px; /* Further adjust right margin */
+        text-align: center; /* Center the text */
+        display: block; /* Ensure text is on a new line if centered */
+    }
+}
+
+/* Extra small screens (e.g., very small smartphones) */
+@media (max-width: 320px) {
+    .responsive-approval {
+        font-size: 10px; /* Smallest readable font size */
+        margin-right: 10px; /* Minimal adjustment */
+        text-align: center; /* Center the text */
+        display: block; /* Ensure text is on a new line if centered */
+    }
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .responsive-item3 {
+        display: block; /* Stack the spans vertically on smaller screens */
+        width: calc(100% - 80px); /* Adjust width to fit within container with margin */
+        margin: 5px auto; /* Center align and add margin */
+        text-align: center; /* Center text inside spans */
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-item3 {
+        font-size: 14px; /* Decrease font size for very small screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .responsive-item3 {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .text-content {
+        line-height: 1.4; /* Adjust line height for better spacing on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-item3 {
+        font-size: 0.8rem; /* Further reduce font size for very small screens */
+    }
+}
+ /* Mobile responsiveness */
+ @media (max-width: 768px) {
+    .quick-links-container {
+        left: 0; /* Reset the left position */
+        bottom: 0; /* Reset the bottom position */
+        padding: 10px; /* Add some padding */
+        text-align: center; /* Center the text */
+    }
+}
+
+@media (max-width: 576px) {
+    .quick-links-container h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+  /* Laptop screen responsiveness */
+  @media (max-width: 1024px) {
+    .responsive-links-container {
+        left: 10rem; /* Adjust the left position for laptop screens */
+        bottom: 6rem; /* Adjust the bottom position for laptop screens */
+    }
+}
+
+/* Tablet and mobile responsiveness */
+@media (max-width: 768px) {
+    .responsive-links-container {
+        left: 0; /* Reset the left position */
+        bottom: 0; /* Reset the bottom position */
+        padding: 10px; /* Add some padding */
+        text-align: center; /* Center the text */
+    }
+}
+
+/* Small mobile responsiveness */
+@media (max-width: 576px) {
+    .responsive-links-container h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .disclaimer-text {
+        right: 250px; /* Adjust the right position for laptop screens */
+        width: 60%;   /* Increase width to take more space */
+    }
+}
+
+/* Tablet and mobile responsiveness */
+@media (max-width: 768px) {
+    .disclaimer-text {
+        right: 0;     /* Reset the right position */
+        width: 80%;   /* Make the text take up more space */
+        text-align: left; /* Align text to the left */
+        padding: 10px; /* Add padding for better readability */
+    }
+}
+
+/* Small mobile responsiveness */
+@media (max-width: 576px) {
+    .disclaimer-text {
+        width: 100%;  /* Full width on small mobile screens */
+        padding: 10px; /* Add padding */
+        font-size: 14px; /* Slightly reduce font size for readability */
+    }
+}
+
+
+ /* Laptop screen responsiveness */
+ @media (max-width: 1024px) {
+    .disclaimer-text {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+/* Tablet screen responsiveness */
+@media (max-width: 768px) {
+    .disclaimer-text {
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+/* Mobile screen responsiveness */
+@media (max-width: 576px) {
+    .disclaimer-text {
+        font-size: 13px;
+        padding: 8px;
+        margin: 8px;
+        text-align: left;
+    }
+}
+
+
+
+/* Laptop screen responsiveness */
+@media (max-width: 1024px) {
+    .responsive-disclaimer {
+        bottom: 200px; /* Adjust bottom position for laptop screens */
+        max-width: 100%; /* Full width on laptops */
+        padding: 15px;
+    }
+}
+
+/* Tablet screen responsiveness */
+@media (max-width: 768px) {
+    .responsive-disclaimer {
+        bottom: 100px; /* Further adjust bottom position */
+        max-width: 90%; /* Slightly reduce width on tablets */
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile screen responsiveness */
+@media (max-width: 576px) {
+    .responsive-disclaimer {
+        bottom: 50px; /* Adjust bottom position for small screens */
+        max-width: 100%; /* Full width on mobile screens */
+        padding: 10px;
+        font-size: 13px;
+        text-align: left; /* Align text to the left for readability */
+    }
+}
+
+
+/* Laptop screen responsiveness */
+@media (max-width: 1024px) {
+    .headh {
+        bottom: 200px; /* Adjust bottom position */
+        max-width: 90%; /* Adjusted width for laptops */
+        padding: 15px;
+    }
+}
+
+/* Tablet screen responsiveness */
+@media (max-width: 768px) {
+    .headh {
+        bottom: 100px; /* Further adjust bottom position */
+        max-width: 90%; /* Further reduce width on tablets */
+        padding: 12px;
+        font-size: 16px; /* Adjust font size for readability */
+    }
+}
+
+/* Mobile screen responsiveness */
+@media (max-width: 576px) {
+    .headh {
+        bottom: 50px; /* Adjust bottom position for small screens */
+        max-width: 100%; /* Full width on mobile screens */
+        padding: 10px;
+        font-size: 14px; /* Adjust font size for readability */
+        text-align: left; /* Align text to the left for readability */
+    }
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        bottom: 300px; /* Adjust bottom position for laptop screens */
+        left: 0px; /* Center-align content */
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* Tablet screen responsiveness */
+@media (max-width: 768px) {
+    .copyright {
+        bottom: 200px; /* Further adjust bottom position for tablets */
+        left: 0px; /* Center-align content */
+        padding: 6px;
+        font-size: 13px;
+    }
+}
+
+/* Mobile screen responsiveness */
+@media (max-width: 576px) {
+    .copyright {
+        bottom: 100px; /* Adjust bottom position for mobile screens */
+        left: 0px; /* Center-align content */
+        padding: 5px;
+        font-size: 12px; /* Smaller font size for mobile */
+        text-align: center; /* Ensure text remains centered */
+    }
+}
