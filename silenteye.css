@@ -218,12 +218,13 @@
     font-size: 14px; /* Base font size */
     color: #333; /* Text color */
 }
-
-#visa{
+#visa {
     position: relative;
-    bottom: 10px;
-    left: 609px;
+    bottom: 10px; /* Initial bottom position */
+    left: 609px; /* Initial left position */
     display: inline-block;
+    width: auto; /* Allow width to adjust */
+    text-align: center; /* Center the content */
 }
 
 
@@ -625,5 +626,36 @@
         padding: 5px;
         font-size: 12px; /* Smaller font size for mobile */
         text-align: center; /* Ensure text remains centered */
+    }
+}
+
+
+/* Laptop screen responsiveness */
+@media (max-width: 1024px) {
+    #visa {
+        bottom: 8px; /* Adjust bottom position for laptop screens */
+        left: 50%; /* Center the element */
+        transform: translateX(-50%); /* Center alignment correction */
+    }
+}
+
+/* Tablet screen responsiveness */
+@media (max-width: 768px) {
+    #visa {
+        bottom: 6px; /* Adjust bottom position for tablets */
+        left: 50%; /* Center the element */
+        transform: translateX(-50%); /* Center alignment correction */
+    }
+}
+
+/* Mobile screen responsiveness */
+@media (max-width: 576px) {
+    #visa {
+        bottom: 4px; /* Adjust bottom position for mobile screens */
+        left: 50%; /* Center the element */
+        transform: translateX(-50%); /* Center alignment correction */
+        width: 100%; /* Ensure the element takes full width on small screens */
+        padding: 5px; /* Add padding for better spacing */
+        text-align: center; /* Ensure content remains centered */
     }
 }
